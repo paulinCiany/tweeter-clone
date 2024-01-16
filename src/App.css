@@ -68,6 +68,10 @@ body {
 
 }
 
+.metaStle:hover {
+  fill: red;
+}
+
 .userPicInputComm,
 .tweet-action,
 .MetaAndBtnTweet,

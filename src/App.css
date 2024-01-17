@@ -45,7 +45,8 @@ body {
 
 .timeLine {
   width: 605px;
-
+  border-left: solid 1px gray;
+  border-right: solid 1px gray;
 }
 
 .borderBotton {
@@ -56,13 +57,16 @@ body {
 
 
 .header {
+  padding-left: 10px;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  align-items: center;
+  width: 97%;
 }
 
 .tweet-action,
 .MetaAndBtnTweet {
+  padding-bottom: 10px;
 
   justify-content: space-between;
 
@@ -84,24 +88,22 @@ body {
 
 .tweets {
   padding-top: 10px;
+  padding-bottom: 10px;
   gap: 10px;
-}
-
-.timeLine {
-  border-left: solid 1px gray;
-  border-right: solid 1px gray;
-
 }
 
 .userPicInputComm {
+  padding-bottom: 10px;
+  height: 30px;
   gap: 10px;
-  align-items: baseline;
+  
 }
 
 .txtArea {
   background-color: black;
   width: 100%;
-  border-style: none;
+  font-size: 20px;
+  border-color: black;
   color: white;
 }
 
@@ -153,6 +155,10 @@ body {
   background: #1D9BF0;
   color: white;
 }
+.blueColre{
+  color: #1D9BF0;
+
+}
 
 .UserInfo,
 .slidBfooter,
@@ -164,9 +170,6 @@ body {
   width: 100%;
 }
 
-/* .contentfooter{
-  align-items: ;
-} */
 .tweet-title {
   align-items: center;
   padding-top: 10px;
@@ -217,15 +220,16 @@ body {
 }
 
 .inputSearch[type=text] {
+  color: white;
   width: 100%;
-  border: 1px solid;
+  border: none;
   border-radius: 50px;
-  font-size: 16px;
+  font-size: 20px;
   background-color: #32404ded;
   background-image: url('src/assets/Icons/Search.svg');
   background-position: 10px 10px;
   background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
+  padding: 12px 20px 12px 30px;
 }
 
 
@@ -257,21 +261,38 @@ body {
   line-height: normal;
 }
 
-.flexRow{
+.trend{
   height: 82px;
   justify-content: space-between;
 }
-.flexRow img{
-  height: 30px;
-  width: 30px;
-}
-.card{
+
+.flexColumn{
   display: flex;
   flex-direction: column;
+}
+.card{
   width: 100%;
   background-color: #32404ded;
   border-radius: 20px;
   font-size: 16px;
   background-position: 10px 10px;
-  padding: 12px 20px 12px 40px;
+  padding: 12px 20px 12px 30px;
+}
+.iconSize{
+  display: flex;
+  align-items: baseline;
+  width: 25px;
+  height: 25px;
+}
+.btnFllw{
+padding: 7px 30px;
+align-items: flex-start;
+border-radius: 32px;
+background: #EFF3F4;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+}
+.AccountFllw{
+  padding-bottom: 10px;
 }

@@ -2,7 +2,7 @@
 function Trend() {
     return (
         <> 
-            <div className='flexRow'>
+            <div className='flexRow trend'>
                 <div className='styleInput'>
                     <span >Trending in Turkey</span>
                     <span className='tagContent'>#SQUID</span>
@@ -11,7 +11,7 @@ function Trend() {
                 <img src="src/assets/Icons/More-2.svg" alt="" />
             </div>
 
-            <div className='flexRow'>
+            <div className='flexRow trend'>
                 <div className='styleInput'>
                   <span >Trending in Turkey</span>
                   <span className='tagContent'>#SQUID</span>
@@ -19,7 +19,7 @@ function Trend() {
                 </div>
                 <img src="src/assets/Icons/More-2.svg" alt="" />
               </div>
-              <div className='flexRow'>
+              <div className='flexRow trend'>
                 <div className='styleInput'>
                   <span >Trending in Turkey</span>
                   <span className='tagContent'>#SQUID</span>
@@ -27,7 +27,7 @@ function Trend() {
                 </div>
                 <img src="src/assets/Icons/More-2.svg" alt="" />
               </div>
-              <div className='flexRow'>
+              <div className='flexRow trend'>
                 <div className='styleInput'>
                   <span >Trending in Turkey</span>
                   <span className='tagContent'>#SQUID</span>
@@ -37,7 +37,7 @@ function Trend() {
               </div>
 
               <div>
-                <a href="">Show more</a>
+                <a href="" className='blueColre'>Show more</a>
               </div>
 
         </>

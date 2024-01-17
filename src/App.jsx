@@ -1,10 +1,10 @@
-import{Routes, Router} from 'react-router-dom'
+import { Routes, Router } from 'react-router-dom'
 import './App.css'
 import Timeline from './Component/Timeline'
 import SlideBarContent from './Component/SlideBarContent'
-import Tweets from './Component/Tweets'
-import BtnTweet from './Component/BtnTweets'
 import Trend from './Component/Trend'
+import Card from './Component/Card'
+import AccountFollow from './Component/AccountFollow'
 
 
 function App() {
@@ -22,15 +22,16 @@ function App() {
 
         <section className="timeLine">
 
-          <Timeline/>
+          <Timeline />
 
         </section>
 
         <section className="trendSect">
           <div className='thirdSect'>
-            <input className='inputSearch' type="text" name="search" placeholder="Search.." />
+            <input className='inputSearch' type="text" name="search" placeholder=" Search Twiter" />
 
-            <div className='card'>
+
+            <Card>
               <div className='trendList'>
                 <div className='trendforyou'>
                   <h3>Trends for you</h3>
@@ -38,8 +39,21 @@ function App() {
                 </div>
               </div >
               <Trend />
+            </Card>
 
-            </div>
+            <Card>
+              <h3>Who to follow</h3>
+
+              <AccountFollow />
+              <AccountFollow />
+              <AccountFollow />
+
+
+              <div>
+                <a href="" className='blueColre'>Show more</a>
+              </div>
+            </Card>
+
 
           </div>
         </section>

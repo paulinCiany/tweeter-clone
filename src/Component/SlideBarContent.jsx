@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import BtnTweet from "./BtnTweets"
 function SlideBarContent() {
     return (
@@ -5,13 +6,13 @@ function SlideBarContent() {
 
             <div className="slideBarContent">
                 <div className='navagation'>
-                    <div className='menuBtnNormal' ><span><img src="src/assets/Icons/Twitter.svg" alt="" /></span></div>
-                    <div className='menuBtnNormal'><img src="src/assets/Icons/Home-Fill.svg" alt="" /><span>Home</span></div>
+                    <Link to='/' className='menuBtnNormal colorWhite' ><span><img src="src/assets/Icons/Twitter.svg" alt="" /></span></Link>
+                    <Link to='/' className='menuBtnNormal colorWhite'><img src="src/assets/Icons/Home-Fill.svg" alt="" /><span>Home</span></Link>
                     <div className='menuBtnNormal'><img src="src/assets/Icons/Explore.svg" alt="" /><span><span>Explore</span> </span></div>
                     <div className='menuBtnNormal'><img src="src/assets/Icons/Notifications-Fill.svg" alt="" /><span><span>Notifications</span> </span></div>
                     <div className='menuBtnNormal'><img src="src/assets/Icons/Messages-Fill.svg" alt="" /><span><span>Messages</span> </span></div>
                     <div className='menuBtnNormal'><img src="src/assets/Icons/Messages-Fill.svg" alt="" /><span><span>Bookmarks</span> </span></div>
-                    <div className='menuBtnNormal'><img src="src/assets/Icons/Lists.svg" alt="" /><span> </span><span>Lists</span></div>
+                    <div className='menuBtnNormal'><img src="src/assets/Icons/Lists.svg" alt="" /><span>Lists</span></div>
                     <div className='menuBtnNormal'><img src="src/assets/Icons/Profile-Fill.svg" alt="" /><span><span>Profile</span> </span></div>
                     <div className='menuBtnNormal'><img src="src/assets/Icons/More.svg" alt="" /><span><span>More</span> </span></div>
                

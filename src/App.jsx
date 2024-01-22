@@ -1,10 +1,12 @@
-import { Routes, Router } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import Timeline from './Component/Timeline'
 import SlideBarContent from './Component/SlideBarContent'
 import Trend from './Component/Trend'
 import Card from './Component/Card'
 import AccountFollow from './Component/AccountFollow'
+import ProfileUser from './ProfileUser'
+import HeaderTwt from './Component/HeaderTwt'
 
 
 function App() {
@@ -22,7 +24,11 @@ function App() {
 
         <section className="timeLine">
 
-          <Timeline />
+          <HeaderTwt />
+          <Routes>
+          <Route path='/' element={<Timeline />} />
+          <Route path='/ProfileUser' element={<ProfileUser />} />
+          </Routes>
 
         </section>
 

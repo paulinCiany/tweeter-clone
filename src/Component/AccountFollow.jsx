@@ -1,3 +1,4 @@
+import BtnFolllow from "./BtnFollow"
 function AccountFollow() {
     return (
         <>
@@ -10,7 +11,9 @@ function AccountFollow() {
                     </div>
                     <img src="src/assets/Icons/Verified.svg" alt="" className='iconSize' />
                 </div>
-                <button className='btnFllw'>Follow</button>
+                
+                <BtnFolllow />
+
             </div>
         </>
     )

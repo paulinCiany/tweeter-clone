@@ -1,5 +1,6 @@
 import Tweets from './Tweets'
 import BtnTweet from './BtnTweets'
+import { Link } from 'react-router-dom'
 function Timeline() {
     const tabs = [
         {
@@ -121,10 +122,7 @@ function Timeline() {
     ]
     return (
         <>
-            <div className="header ">
-                <h3>Home</h3>
-                <img src="src/assets/Icons/Timeline-Prop.svg" alt="user pic" />
-            </div>
+
 
             <div className="twitContainer borderBotton">
                 <div className="userPicInputComm">

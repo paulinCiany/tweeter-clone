@@ -49,12 +49,9 @@ function App() {
 
             <Card>
               <h3>Who to follow</h3>
-
               <AccountFollow />
               <AccountFollow />
               <AccountFollow />
-
-
               <div>
                 <a href="" className='blueColre'>Show more</a>
               </div>

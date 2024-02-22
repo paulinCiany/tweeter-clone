@@ -342,7 +342,7 @@ body {
 
 .userNameStl {
   color: var(--Text, #D9D9D9);
-  font-family: SF Pro Display;
+  font-family: sans-serif;
   font-size: 25px;
   font-weight: 700;
   line-height: normal;

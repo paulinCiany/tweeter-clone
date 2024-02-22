@@ -13,8 +13,9 @@ function SlideBarContent() {
                     <div className='menuBtnNormal'><img src="src/assets/Icons/Messages-Fill.svg" alt="" /><span><span>Messages</span> </span></div>
                     <div className='menuBtnNormal'><img src="src/assets/Icons/Messages-Fill.svg" alt="" /><span><span>Bookmarks</span> </span></div>
                     <div className='menuBtnNormal'><img src="src/assets/Icons/Lists.svg" alt="" /><span>Lists</span></div>
-                    <div className='menuBtnNormal'><img src="src/assets/Icons/Profile-Fill.svg" alt="" /><span><span>Profile</span> </span></div>
+                    <Link to='/ProfileUser' className='menuBtnNormal colorWhite'> <div className='menuBtnNormal'><img src="src/assets/Icons/Profile-Fill.svg" alt="" /><span>Profile</span></div></Link>
                     <div className='menuBtnNormal'><img src="src/assets/Icons/More.svg" alt="" /><span><span>More</span> </span></div>
+                    
                
                     <BtnTweet classTweet ="btnTwtXI" />
                 </div>
